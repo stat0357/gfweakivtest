@@ -29,12 +29,19 @@ Montiel-Pflueger robust weak instrument test
 
 --------------------------------------------
 btsls:                       0.0964
+
 sebtsls:                     0.0865
+
 bliml:                       0.0958
+
 sebliml:                     0.0913
+
 kappa:                       1.0016
+
 Non-Robust F statistic:       4.342
+
 Effective F statistic:        4.552
+
 Confidence level alpha:          5%
 
 --------------------------------------------
