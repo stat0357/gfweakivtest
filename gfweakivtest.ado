@@ -1,15 +1,20 @@
+//  The gfweakivtest ado file creates a STATA command, -gfweakivtest-, implementing
+//	the test for weak instruments of Montiel Olea, J. L. and C. E. Pflueger.(2013) 
+//	"A robust test for weak instruments". Journal of Business and Economic Statistics 31:358-369,
+//  and the robust F-statistic as a test for weak instruments related to the Nagar bias of the
+//  GMMf estimator, see Windmeijer, F. (2025) "The robust F-statistic as a Test for Weak Instruments"
+//  Journal of Econometrics.
+//	For more details of the orginal weakivtest routine, please refer to Pflueger, C. E. and Su Wang(2013)
+//	"A robust test for weak instruments in Stata." http://papers.ssrn.com/sol3/papers.cfm?abstract_id=2323012.
+
+
 //	Authors: 
 //	    Carolin E. Pflueger, University of British Columbia, Vancouver BC V6T 1Z2, Canada
 //      carolin.pflueger@sauder.ubc.ca
 //      Su Wang, London School of Economics, London WC2A 2AE, United Kingdom
 //      s.wang50@lse.ac.uk.
-
-//  The weakivtest ado file creates a STATA command, -weakivtest-, implementing
-//	the test for weak instruments of Montiel Olea, J. L. and C. E. Pflueger.(2013) 
-//	"A robust test for weak instruments". Journal of Business and Economic Statistics 31:358-369.
-//	For more details of weakivtest routine, please refer to Pflueger, C. E. and Su Wang(2013)
-//	"A robust test for weak instruments in Stata." http://papers.ssrn.com/sol3/papers.cfm?abstract_id=2323012.
-* this version: 10/28/2020 - include noconstant option
+//      Frank Windmeijer, University of Oxford
+//      frank.windmeijer@stats.ox.ac.uk
  
 program gfweakivtest,rclass
 	version 10
