@@ -26,7 +26,6 @@ For example:
 . gfweakivtest
 
 Montiel-Pflueger robust weak instrument test
-
 --------------------------------------------
 btsls:                       0.0964
 
