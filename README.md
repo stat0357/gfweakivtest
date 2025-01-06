@@ -26,48 +26,54 @@ For example:
 . gfweakivtest
 
 Montiel-Pflueger robust weak instrument test
+
 --------------------------------------------
 btsls:                       0.0964
-
 sebtsls:                     0.0865
-
 bliml:                       0.0958
 sebliml:                     0.0913
 kappa:                       1.0016
 Non-Robust F statistic:       4.342
 Effective F statistic:        4.552
 Confidence level alpha:          5%
+
 --------------------------------------------
 
 --------------------------------------------
 Critical Values             TSLS      LIML
+
 --------------------------------------------
 % of Worst Case Bias
 tau=5%                    15.711    15.406
 tau=10%                    9.957     9.789
 tau=20%                    6.749     6.654
 tau=30%                    5.560     5.491
+
 --------------------------------------------
 --------------------------------------------
 bgmmf:                       0.0948
 sebgmmf:                     0.0868
 Robust F statistic:           5.021
 Confidence level alpha:          5%
+
 --------------------------------------------
 
 --------------------------------------------
 Critical Values             GMMf
+
 --------------------------------------------
 % of Worst Case Bias
 tau=5%                    13.651
 tau=10%                    8.745
 tau=20%                    6.021
 tau=30%                    5.018
+
 --------------------------------------------
 
 . gfweakivtestols
 
 Montiel-Pflueger robust weak instrument test
+
 --------------------------------------------
 btsls:                       0.0964
 sebtsls:                     0.0865
@@ -77,31 +83,37 @@ kappa:                       1.0016
 Non-Robust F statistic:       4.342
 Effective F statistic:        4.552
 Confidence level alpha:          5%
+
 --------------------------------------------
 
 --------------------------------------------
 Critical Values             TSLS      LIML
+
 --------------------------------------------
 % of Worst Case Bias
 tau=5%                    15.900    15.406
 tau=10%                   10.062     9.789
 tau=20%                    6.808     6.654
 tau=30%                    5.602     5.491
+
 --------------------------------------------
 --------------------------------------------
 bgmmf:                       0.0948
 sebgmmf:                     0.0868
 Robust F statistic:           5.021
 Confidence level alpha:          5%
+
 --------------------------------------------
 
 --------------------------------------------
 Critical Values             GMMf
+
 --------------------------------------------
 % of Worst Case Bias
 tau=5%                    13.901
 tau=10%                    8.882
 tau=20%                    6.098
 tau=30%                    5.073
+
 --------------------------------------------
 
