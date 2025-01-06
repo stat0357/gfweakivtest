@@ -26,9 +26,12 @@ For example:
 . gfweakivtest
 
 Montiel-Pflueger robust weak instrument test
+
 --------------------------------------------
 btsls:                       0.0964
+
 sebtsls:                     0.0865
+
 bliml:                       0.0958
 sebliml:                     0.0913
 kappa:                       1.0016
