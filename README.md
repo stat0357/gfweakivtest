@@ -17,12 +17,11 @@ The gfweakivtestols.ado file outputs the critical values related to the worst-ca
 
 
 For example:
-. 
+
 . use http://fmwww.bc.edu/ec-p/data/wooldridge/mroz.dta
 
 . qui ivreg2 lwage exper expersq (educ=age kidslt6 kidsge6), rob
-
-. 
+ 
 . gfweakivtest
 
 Montiel-Pflueger robust weak instrument test
